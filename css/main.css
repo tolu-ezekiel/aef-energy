@@ -12,12 +12,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
 .topnav {
-    font-size: 13px;
+    font-size: 14px;
 }
 .navbar-brand {
     height: 53px;
@@ -53,6 +52,14 @@ h6 {
     width: 100%;
     /*object-fit: fill;*/
     /*overflow: hidden;*/
+}
+.intro {
+    text-align: center;
+    padding-top: 50px;
+    color: #000;
+}
+.fa {
+    color: #F5842A;
 }
 
 .contact, .portfolio {
