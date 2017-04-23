@@ -12,15 +12,15 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
 .topnav {
-    font-size: 14px;
+    font-size: 13px;
 }
 .navbar-brand {
-    height: 55px;
+    height: 53px;
 }
 .lead {
     font-size: 18px;
@@ -32,55 +32,30 @@ h6 {
 .navbar {
     margin-bottom: 0;
 }
-/*.transparent-navbar {
-    background-color: transparent;
-    border-color: transparent;
-    border-bottom-color: transparent;
-    -webkit-transition: background-color .5s ease-in-out,border-bottom-color .5s;
-    -o-transition: background-color .5s ease-in-out,border-bottom-color .5s;
-    transition: background-color .5s ease-in-out,border-bottom-color .5s;
+.navbar-default {
+    background-color: #fff;
+    border-color: #777;
 }
-.opaque-navbar {
-    border-color: green;
-    -webkit-transition: background-color .5s ease-in-out,border-bottom-color .5s;
-    -o-transition: background-color .5s ease-in-out,border-bottom-color .5s;
-    transition: background-color .5s ease-in-out,border-bottom-color .5s;
-}
-.transparent-link>li>a {
-    color: #fff !important;
-    -webkit-transition: color .4s ease-in-out;
-    -o-transition: color .4s ease-in-out;
-    transition: color .4s ease-in-out;
-}*/
 .link {
     /*margin-right: 10px !important;*/
     background-color: transparent !important;
     border-bottom-style: solid;
     border-bottom-color: transparent;
+    border-bottom-width: 2px;
 }
 
 .link:hover, .selected {
     color: #000 !important;
-    border-bottom-color: #1DB0ED;
+    border-bottom-color: #5B7C8E;
 }
-.intro-header {
-    background: url(../img/1.jpg) no-repeat center center fixed;
-}
-/*.intro-header {
-    text-align: center;
-    color: #f8f8f8;
-    background-size: cover;
-    overflow:auto;
-    background-size: 100% 100%;
-}*/
-.intro-message {
-    position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+.carousel-image {
+    height: 550px;
+    width: 100%;
+    /*object-fit: fill;*/
+    /*overflow: hidden;*/
 }
 
-
-.intro-header, .contact, .portfolio {
+.contact, .portfolio {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
