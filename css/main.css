@@ -32,19 +32,26 @@ h6 {
 .navbar {
     margin-bottom: 0;
 }
-.transparent-navbar {
+/*.transparent-navbar {
     background-color: transparent;
     border-color: transparent;
-
-   /* -webkit-transition: background-color .4s ease-in-out,border-bottom-color .4s;
-    -o-transition: background-color .4s ease-in-out,border-bottom-color .4s;
-    transition: background-color .4s ease-in-out,border-bottom-color .4s;
-
-    -webkit-transition: background-color .4s ease-in-out,border-bottom-color .4s;
-    -o-transition: background-color .4s ease-in-out,border-bottom-color .4s;
-    transition: background-color .4s ease-in-out,border-bottom-color .4s;*/
+    border-bottom-color: transparent;
+    -webkit-transition: background-color .5s ease-in-out,border-bottom-color .5s;
+    -o-transition: background-color .5s ease-in-out,border-bottom-color .5s;
+    transition: background-color .5s ease-in-out,border-bottom-color .5s;
 }
-
+.opaque-navbar {
+    border-color: green;
+    -webkit-transition: background-color .5s ease-in-out,border-bottom-color .5s;
+    -o-transition: background-color .5s ease-in-out,border-bottom-color .5s;
+    transition: background-color .5s ease-in-out,border-bottom-color .5s;
+}
+.transparent-link>li>a {
+    color: #fff !important;
+    -webkit-transition: color .4s ease-in-out;
+    -o-transition: color .4s ease-in-out;
+    transition: color .4s ease-in-out;
+}*/
 .link {
     /*margin-right: 10px !important;*/
     background-color: transparent !important;
@@ -57,8 +64,22 @@ h6 {
     border-bottom-color: #1DB0ED;
 }
 .intro-header {
-    background: url(../img/home.jpg) no-repeat center center fixed;
+    background: url(../img/1.jpg) no-repeat center center fixed;
 }
+/*.intro-header {
+    text-align: center;
+    color: #f8f8f8;
+    background-size: cover;
+    overflow:auto;
+    background-size: 100% 100%;
+}*/
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+
 .intro-header, .contact, .portfolio {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -66,15 +87,10 @@ h6 {
     color: #f8f8f8;
     background-size: cover;
     overflow:auto;
-    /*background-size: 100% 100%;*/
+    background-size: 100% 100%;
 }
 .portfolio {
     background: url(../img/portfolio.jpg) no-repeat center center fixed;
-}
-.intro-message {
-    position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
 }
 .contact-message {
     position: relative;
