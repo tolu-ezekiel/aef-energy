@@ -16,7 +16,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px;
+    font-size: 14.5px;
 }
 .navbar-brand {
     height: 53px;
@@ -38,8 +38,8 @@ h6 {
     border-bottom-width: 2px;
 }
 .link:hover, .selected {
-    color: #000 !important;
-    border-bottom-color: #5B7C8E;
+    color: #124666 !important;
+    border-bottom-color: #124666;
 }
 .carousel-image {
     height: 550px;
@@ -55,7 +55,7 @@ h6 {
 .fa {
     color: #F5842A;
 }
-.about, .capabilities {
+.about, .capabilities, .strategic {
     text-align: center;
     color: #f8f8f8;
     background-size: cover;
@@ -68,6 +68,9 @@ h6 {
 .capabilities {
     background: url(../img/portfolio.jpg) no-repeat center center fixed;
 }
+.strategic {
+    background: url(../img/portfolio.jpg) no-repeat center center fixed;
+}
 .down-arrow > .fa{
     color: #fff;
 }
@@ -76,7 +79,7 @@ h6 {
 }*/
 .section-heading-spacer {
     width: 200px;
-    border-top: 3px solid #5B7C8E;
+    border-top: 2px solid #5B7C8E;
     float: left;
 }
 
@@ -214,7 +217,7 @@ h6 {
 }
 
 .contact {
-    background: url(../img/contact.jpg) no-repeat center center fixed;
+    background: url(../img/portfolio.jpg) no-repeat center center fixed;
 }
 
 footer {
