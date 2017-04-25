@@ -21,10 +21,6 @@ h6 {
 .navbar-brand {
     height: 53px;
 }
-.lead {
-    font-size: 18px;
-    font-weight: 400;
-}
 #logo {
     padding: 5px 8px;
 }
@@ -36,13 +32,11 @@ h6 {
     border-color: #777;
 }
 .link {
-    /*margin-right: 10px !important;*/
     background-color: transparent !important;
     border-bottom-style: solid;
     border-bottom-color: transparent;
     border-bottom-width: 2px;
 }
-
 .link:hover, .selected {
     color: #000 !important;
     border-bottom-color: #5B7C8E;
@@ -55,14 +49,43 @@ h6 {
 }
 .intro {
     text-align: center;
-    padding-top: 50px;
+    padding: 20px;
     color: #000;
 }
 .fa {
     color: #F5842A;
 }
+.about, .capabilities {
+    text-align: center;
+    color: #f8f8f8;
+    background-size: cover;
+    overflow:auto;
+    background-size: 100% 100%;
+}
+.about {
+    background: url(../img/portfolio.jpg) no-repeat center center fixed;
+}
+.capabilities {
+    background: url(../img/portfolio.jpg) no-repeat center center fixed;
+}
+.down-arrow > .fa{
+    color: #fff;
+}
+/*.bar {
+    float: left;
+}*/
+.section-heading-spacer {
+    width: 200px;
+    border-top: 3px solid #5B7C8E;
+    float: left;
+}
 
-.contact, .portfolio {
+
+
+
+
+
+.contact {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
@@ -70,9 +93,6 @@ h6 {
     background-size: cover;
     overflow:auto;
     background-size: 100% 100%;
-}
-.portfolio {
-    background: url(../img/portfolio.jpg) no-repeat center center fixed;
 }
 .contact-message {
     position: relative;
@@ -85,9 +105,7 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
 }
-.down-arrow {
-    color: #fff;
-}
+
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
@@ -185,24 +203,14 @@ h6 {
 }
 
 .content-section-a {
-    padding: 50px 0;
+    padding: 20px 0;
     background-color: #f8f8f8;
 }
 
 .content-section-b {
-    padding: 50px 0;
+    padding: 20px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
-}
-
-.section-heading {
-    margin-bottom: 30px;
-}
-
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
 }
 
 .contact {
