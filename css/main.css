@@ -50,7 +50,7 @@ h6 {
 .intro {
     text-align: center;
     padding: 20px;
-    color: #000;
+    color: #5B7C8E;
 }
 .fa {
     color: #F5842A;
@@ -77,13 +77,12 @@ h6 {
 /*.bar {
     float: left;
 }*/
-.section-heading-spacer {
-    width: 200px;
-    border-top: 2px solid #5B7C8E;
-    float: left;
+.contact-details a {
+    color: #5B7C8E;
 }
-
-
+#contact-div {
+    padding: 0;
+}
 
 
 
