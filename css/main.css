@@ -14,6 +14,9 @@ h5,
 h6 {
     font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
+ul {
+  list-style: url(../img/list.png);
+}
 
 .topnav {
     font-size: 14.5px;
@@ -55,35 +58,28 @@ h6 {
 .fa {
     color: #F5842A;
 }
-.about, .capabilities, .strategic {
+.about, .capabilities, .strategic, .consulting, .training {
     text-align: center;
     color: #f8f8f8;
     background-size: cover;
     overflow:auto;
     background-size: 100% 100%;
-}
-.about {
-    background: url(../img/portfolio.jpg) no-repeat center center fixed;
-}
-.capabilities {
-    background: url(../img/portfolio.jpg) no-repeat center center fixed;
-}
-.strategic {
     background: url(../img/portfolio.jpg) no-repeat center center fixed;
 }
 .down-arrow > .fa{
     color: #fff;
 }
-/*.bar {
-    float: left;
-}*/
 .contact-details a {
     color: #5B7C8E;
 }
 #contact-div {
     padding: 0;
 }
-
+.list { 
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 300;
+}
 
 
 
@@ -221,10 +217,13 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #124666;
+    color: #fff;
 }
-
-p.copyright {
-    margin: 15px 0 0;
+.copyright {
+    margin: 40px 0 0;
+}
+.footer-social a{
+    padding-left: 5px;
 }
 
