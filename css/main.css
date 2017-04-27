@@ -80,7 +80,23 @@ ul {
     font-size: 18px;
     font-weight: 300;
 }
-
+#scrollUp{
+    background: url(../img/top.png);
+    background-color: rgba(18, 70, 102, 0.65);
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 190px;
+    right: 20px;
+    z-index: 2147483647;
+    display: inline;
+    border-radius: 50%;
+}
+#scrollUp:hover {
+    background-color: rgba(18, 70, 102, 0.5);
+} 
 
 
 .contact {
@@ -169,12 +185,47 @@ ul {
     visibility: visible;
     font-style: normal;
 }
+#carousel-1-alt1, #carousel-1-alt2, #carousel-1-alt3, #carousel-2-alt1, #carousel-2-alt2, #carousel-2-alt3, #carousel-2-alt4, #carousel-3-alt1, #carousel-3-alt2, #carousel-3-alt3, #carousel-4-alt1, #carousel-4-alt2, #carousel-4-alt3 {
+    display: none;
+}
+
+@media(max-width: 938px) {
+    #carousel-2, #carousel-2-alt1, #carousel-2-alt2, #carousel-2-alt3 {
+        display: none;
+    }
+    #carousel-2-alt4 {
+        display: block;
+    }
+}
+@media(max-width: 826px) {
+    #carousel-1-alt1, #carousel-2-alt1, #carousel-3-alt1, #carousel-4-alt1 {
+        display: block;
+    }
+    #carousel-1, #carousel-1-alt2, #carousel-1-alt3, #carousel-2, #carousel-2-alt2, #carousel-2-alt3, #carousel-2-alt4, #carousel-3, #carousel-3-alt2, #carousel-3-alt3, #carousel-4, #carousel-4-alt2, #carousel-4-alt3 {
+        display: none;
+    }
+}
+@media(max-width: 620px) {
+    #carousel-1-alt2, #carousel-2-alt2, #carousel-3-alt2 {
+        display: block;
+    }
+    #carousel-1, #carousel-1-alt1, #carousel-1-alt3, #carousel-2, #carousel-2-alt1, #carousel-2-alt3, #carousel-2-alt4, #carousel-3, #carousel-3-alt1, #carousel-3-alt3{
+        display: none;
+    }
+}
+@media(max-width: 440px) {
+    #carousel-1-alt3, #carousel-2-alt3, #carousel-3-alt3 {
+        display: block;
+    }
+    #carousel-1, #carousel-1-alt1, #carousel-1-alt2, #carousel-2, #carousel-2-alt1, #carousel-2-alt2, #carousel-2-alt4, #carousel-3, #carousel-3-alt1, #carousel-3-alt2 {
+        display: none;
+    }
+}
 
 @media(max-width:767px) {
     .intro-message, .contact-message {
         padding-bottom: 15%;
     }
-
     .intro-message > h1, .contact-message > h1 {
         font-size: 3em;
     }
