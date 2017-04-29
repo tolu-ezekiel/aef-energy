@@ -38,16 +38,39 @@
                 <a href="#home"><img id="logo" class="navbar-brand topnav" src="img/aef-logo.png" alt="AEF Energy" ></a>
             </div>
             <!-- Collect the nav links for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a id="about-link" class="link" href="#about">About</a>
+                    <li class="dropdown">
+                        <a id="about-link" class="link dropdown-toggle" href="#about" data-toggle="dropdown">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#who-we-are" class="link-dropdown">Who we are</a></li>
+                            <li class="divider"></li>
+                            <li><a class="link-dropdown" href="#vision">Vision</a></li>
+                            <li class="divider"></li>
+                            <li><a class="link-dropdown" href="#our-aim">Our aim</a></li>
+                        </ul>
                     </li>
-                    <li>
-                        <a id="capabilities-link" class="link" href="#capabilities">Capabilities</a>
+                    <li class="dropdown">
+                        <a id="capabilities-link" class="link dropdown-toggle" data-toggle="dropdown" href="#capabilities">Capabilities <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#asset-integrity" class="link-dropdown">Asset integrity</a></li>
+                            <li class="divider"></li>
+                            <li><a class="link-dropdown" href="#prod-opt">Product optimization</a></li>
+                            <li class="divider"></li>
+                            <li><a class="link-dropdown" href="#asset-security">Asset Security</a></li>
+                            <li class="divider"></li>
+                            <li><a class="link-dropdown" href="#training&consulting">Training & consulting</a></li>
+                        </ul>
                     </li>
-                    <li>
-                        <a id="strategic-link" class="link" href="#strategic">Strategic Partners</a>
+                    <li class="dropdown">
+                        <a id="strategic-link" class="link dropdown-toggle" data-toggle="dropdown"  href="#strategic">Strategic Partners <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#imrandd" class="link-dropdown">IMRANDD</a></li>
+                            <li class="divider"></li>
+                            <li><a class="link-dropdown" href="#aimre">AIMRE</a></li>
+                            <li class="divider"></li>
+                            <li><a class="link-dropdown" href="#gdi">GDI</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a id="consulting-link" class="link" href="#consulting">Consulting</a>
@@ -102,7 +125,7 @@
         <div class="col-xs-12 col-sm-4 col-md-4">
             <i class="fa fa-handshake-o fa-4x"></i>
             <h3>Professional</h3>
-            <p>Our experiences cuts across the major oil and gas regions of the world, and we are made up of a team of professionals with over 50 years combined experience.</p>
+            <p>Our experience cuts across the major oil and gas regions of the world, and we are made up of a team of professionals with over 50 years combined experience.</p>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4">
             <i class="fa fa-superpowers fa-4x"></i>
@@ -127,6 +150,7 @@
     </div>
 
     <a  name="about"></a>
+    <a name="who-we-are"></a>
     <div class="content-section-a">
         <div class="container">
             <div class="row">
@@ -143,13 +167,16 @@
         </div>
     </div>
 
+    <a name="vision"></a>
     <div class="content-section-b">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
                     <img class="img-responsive" src="img/vision1.png" alt="">
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <hr class="section-heading-spacer">
                     <h3 class="section-heading">Vision</h3>
                     <p class="list">To become Africa's preferred energy support services company, driving efficiency through innovation and technology.</p>
                 </div>
@@ -157,14 +184,17 @@
         </div>
     </div>
 
+    <a name="our-aim"></a>
     <div class="content-section-a">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
                     <img class="img-responsive" src="img/aim1.png" alt="">
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <h3 class="section-heading">Our Aim</h3>
+                    <hr class="section-heading-spacer">
+                    <h3 class="section-heading">Our aim</h3>
                     <p class="list">To drive towards more profitable assets management through business focused technical solutiions and the application of international standards & best practice.</p>
                 </div>
             </div>
@@ -188,6 +218,7 @@
     </div>
 
     <a  name="capabilities"></a>
+    <a name="asset-integrity"></a>
     <div class="content-section-a">
         <div class="container">
             <div class="row">
@@ -203,13 +234,16 @@
         </div>
     </div>
 
+    <a name="prod-opt"></a>
     <div class="content-section-b">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
                     <img class="img-responsive" src="img/prod-opt1.png" alt="">
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <hr class="section-heading-spacer">
                     <h3 class="section-heading">Production optimization</h3>
                     <p class="list">As an organization made up of a team of competent and experienced individuals across the entire oil and gas value chain, we are able to deliver measurable production and performance improvement on Assets across Africa. </p>
                 </div>
@@ -217,13 +251,16 @@
         </div>
     </div>
 
+    <a name="asset-security"></a>
     <div class="content-section-a">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
                     <img class="img-responsive" src="img/asset-security.jpg" alt="">
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <hr class="section-heading-spacer">
                     <h3 class="section-heading">Asset security</h3>
                     <p class="list">We employ top of the range technology to ensure the safety and viabilities of Assets. Our solutions are relevant, technically capable, reliable and affordable.</p>
                 </div>
@@ -231,15 +268,18 @@
         </div>
     </div>
 
+    <a name="training&consulting"></a>
     <div class="content-section-b">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
                     <h3 class="section-heading">Consulting</h3>
                     <p class="list">Our Comprehensive range of engineering and business expertise held by our team allows us provide advisory and support services both directly to upstream oil and gas operators and to other stakeholders such as partners and investors.</p> 
                     <p class="list">AEF Energy reviews existing upstream assets and conduct audit of supporting business processes.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <hr class="section-heading-spacer">
                     <h3 class="section-heading">Training</h3>
                     <p class="list">We are positioned to provide strategic and focused trainings across all skill level within the Oil and Gas industry.</p>
                     <p class="list">We offer cutting-edge competency based and practical training courses to support the entire Oil and Gas value chain.</p>
@@ -254,7 +294,7 @@
                 <div class="col-lg-12">
                     <div class="contact-message" >
                         <h2>Strategic partners</h2>
-                        <h3>Our technical capabilities are drawn from strategic partnerships with world class solution providers with experiences spanning the North Sea, Gulf of Mexico, Middle East and Africa.</h3>
+                        <h3>Our technical capabilities are drawn from strategic partnerships with world class solution providers with experience spanning the North Sea, Gulf of Mexico, Middle East and Africa.</h3>
                         <hr class="intro-divider">
                         <a href="#strategic" class="down-arrow"><i class="fa fa-chevron-down"></i></a>
                     </div>
@@ -264,6 +304,7 @@
     </div>
 
     <a name="strategic"></a>
+    <a name="imrandd">
     <div class="content-section-a">
         <div class="container">
             <div class="row">
@@ -293,10 +334,12 @@
         </div>
     </div>
 
+    <a name="aimre"></a>
     <div class="content-section-b">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
                     <h3 class="section-heading">Core Competencies</h3>
                     <ul>
                         <li><p class="list">Asset Condition Monitoring Services</p></li>
@@ -306,6 +349,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <hr class="section-heading-spacer">
                     <img class="img-responsive" style="margin: 3%;" src="img/aimre.png" alt="">
                     <ul>
                         <li><p class="list">Asset Integrity Management & Reliability Engineering (AIMRE) is a leading engineering consulting firm providing services to the energy sector predominantly Oil & Gas, Renewables and Nuclear.</p></li>
@@ -316,10 +360,12 @@
         </div>
     </div>
 
+    <a name="gdi"></a>
     <div class="content-section-a">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
                     <img class="img-responsive" style="margin: 3%;" src="img/gdi.png" alt="">
                     <ul>
                         <li><p class="list">GDI provides fit for purpose repair orders, engineering support and design solutions across the energy sector.</p></li>
@@ -327,6 +373,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <hr class="section-heading-spacer">
                     <h3 class="section-heading">Core Competencies</h3>
                     <ul>
                         <li><p class="list">Survey </p></li>
@@ -508,6 +555,7 @@
                     </p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <hr class="section-heading-spacer">
                     <img class="img-responsive" src="img/contact.png" alt="">
                 </div>
             </div>

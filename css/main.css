@@ -45,6 +45,13 @@ ul {
     color: #124666 !important;
     border-bottom-color: #124666;
 }
+.link-dropdown {
+    color: #777 !important;
+    background-color: transparent !important;
+}
+.link-dropdown:hover {
+    color: #124666 !important;
+}
 .carousel-image {
     height: 550px;
     width: 100%;
@@ -58,6 +65,9 @@ ul {
 }
 .fa {
     color: #F5842A;
+}
+.section-heading-spacer {
+    border-top: 1px solid rgba(238, 238, 238, 0);
 }
 .about, .capabilities, .strategic, .consulting, .training {
     text-align: center;
@@ -270,12 +280,11 @@ ul {
         width: 100%;
     }
 }
-
-/*@media(min-width: 767px) {
-    .link {
-        border-bottom: 18px;
-    }
-}*/
+@media(max-width: 998px) {
+    .topnav {
+        font-size: 12px;
+    }   
+}
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
