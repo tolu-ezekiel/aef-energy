@@ -19,10 +19,10 @@ ul {
 }
 
 .topnav {
-    font-size: 14.5px;
+    font-size: 14px;
 }
 .navbar-brand {
-    height: 53px;
+    height: 56px;
 }
 #logo {
     padding: 5px 8px;
@@ -39,6 +39,7 @@ ul {
     border-bottom-style: solid;
     border-bottom-color: transparent;
     border-bottom-width: 2px;
+    padding-bottom: 18px !important;
 }
 .link:hover, .selected {
     color: #124666 !important;
@@ -97,7 +98,9 @@ ul {
 #scrollUp:hover {
     background-color: rgba(18, 70, 102, 0.5);
 } 
-
+.training-divider {
+    border-top: 1px solid #124666
+}
 
 .contact {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -185,43 +188,69 @@ ul {
     visibility: visible;
     font-style: normal;
 }
-#carousel-1-alt1, #carousel-1-alt2, #carousel-1-alt3, #carousel-2-alt1, #carousel-2-alt2, #carousel-2-alt3, #carousel-2-alt4, #carousel-3-alt1, #carousel-3-alt2, #carousel-3-alt3, #carousel-4-alt1, #carousel-4-alt2, #carousel-4-alt3 {
+#carousel-1-alt1, #carousel-1-alt2, #carousel-1-alt3, #carousel-2-alt1, #carousel-2-alt2, #carousel-2-alt3, #carousel-3-alt1, #carousel-3-alt2, #carousel-3-alt3 {
     display: none;
 }
 
-@media(max-width: 938px) {
-    #carousel-2, #carousel-2-alt1, #carousel-2-alt2, #carousel-2-alt3 {
-        display: none;
-    }
-    #carousel-2-alt4 {
-        display: block;
-    }
-}
 @media(max-width: 826px) {
-    #carousel-1-alt1, #carousel-2-alt1, #carousel-3-alt1, #carousel-4-alt1 {
+    #carousel-1-alt1, #carousel-3-alt1 {
         display: block;
     }
-    #carousel-1, #carousel-1-alt2, #carousel-1-alt3, #carousel-2, #carousel-2-alt2, #carousel-2-alt3, #carousel-2-alt4, #carousel-3, #carousel-3-alt2, #carousel-3-alt3, #carousel-4, #carousel-4-alt2, #carousel-4-alt3 {
-        display: none;
-    }
-}
-@media(max-width: 620px) {
-    #carousel-1-alt2, #carousel-2-alt2, #carousel-3-alt2 {
-        display: block;
-    }
-    #carousel-1, #carousel-1-alt1, #carousel-1-alt3, #carousel-2, #carousel-2-alt1, #carousel-2-alt3, #carousel-2-alt4, #carousel-3, #carousel-3-alt1, #carousel-3-alt3{
-        display: none;
-    }
-}
-@media(max-width: 440px) {
-    #carousel-1-alt3, #carousel-2-alt3, #carousel-3-alt3 {
-        display: block;
-    }
-    #carousel-1, #carousel-1-alt1, #carousel-1-alt2, #carousel-2, #carousel-2-alt1, #carousel-2-alt2, #carousel-2-alt4, #carousel-3, #carousel-3-alt1, #carousel-3-alt2 {
+    #carousel-1, #carousel-1-alt2, #carousel-1-alt3, #carousel-3, #carousel-3-alt2, #carousel-3-alt3 {
         display: none;
     }
 }
 
+@media(max-width: 780px) {
+    #carousel-2-alt1 {
+        display: block;
+    }
+    #carousel-2, #carousel-2-alt2, #carousel-2-alt3 {
+        display: none;
+    }
+}
+
+@media(max-width: 620px) {
+    #carousel-1-alt2, #carousel-3-alt1 {
+        display: block;
+    }
+    #carousel-1, #carousel-1-alt1, #carousel-1-alt3, #carousel-3, #carousel-3-alt2, #carousel-3-alt3{
+        display: none;
+    }
+}
+@media(max-width: 595px) {
+    #carousel-2-alt2 {
+        display: block;
+    }
+    #carousel-2, #carousel-2-alt1 {
+        display: none;
+    }
+}
+@media(max-width: 585px) {
+    #carousel-3-alt4 {
+        display: block;
+    }
+    #carousel-3, #carousel-3-alt2, #carousel-3-alt3, #carousel-3-alt1{
+        display: none;
+    }
+}
+@media(max-width: 450px) {
+    #carousel-1-alt3, #carousel-3-alt2 {
+        display: block;
+    }
+    #carousel-1, #carousel-1-alt1, #carousel-1-alt2, #carousel-3, #carousel-3-alt1, #carousel-3-alt4 {
+        display: none;
+    }
+}
+
+@media(max-width: 462px) {
+    #carousel-2-alt3 {
+        display: block;
+    }
+    #carousel-2, #carousel-2-alt1, #carousel-2-alt2  {
+        display: none;
+    }
+}
 @media(max-width:767px) {
     .intro-message, .contact-message {
         padding-bottom: 15%;
@@ -229,21 +258,24 @@ ul {
     .intro-message > h1, .contact-message > h1 {
         font-size: 3em;
     }
-
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-
     ul.intro-social-buttons > li:last-child {
         margin-bottom: 0;
     }
-
     .intro-divider {
         width: 100%;
     }
 }
+
+/*@media(min-width: 767px) {
+    .link {
+        border-bottom: 18px;
+    }
+}*/
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
