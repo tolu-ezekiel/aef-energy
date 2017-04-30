@@ -69,7 +69,7 @@ ul {
 .section-heading-spacer {
     border-top: 1px solid rgba(238, 238, 238, 0);
 }
-.about, .capabilities, .strategic, .consulting, .training {
+.about, .capabilities, .strategic, .consulting, .training, .business {
     text-align: center;
     color: #f8f8f8;
     background-size: cover;
