@@ -22,7 +22,7 @@ ul {
     font-size: 14px;
 }
 .navbar-brand {
-    height: 56px;
+    height: 65px;
 }
 #logo {
     padding: 5px 8px;
@@ -39,7 +39,8 @@ ul {
     border-bottom-style: solid;
     border-bottom-color: transparent;
     border-bottom-width: 2px;
-    padding-bottom: 18px !important;
+    padding-bottom: 20px !important;
+    padding-top: 22px !important;
 }
 .link:hover, .selected {
     color: #124666 !important;
@@ -318,6 +319,11 @@ ul {
   .collapse.in{
       display:block !important;
   }
+}
+@media(max-width: 1199px) {
+    .navbar-brand {
+        height: 60px;
+    }
 }
 .network-name {
     text-transform: uppercase;
